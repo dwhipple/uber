@@ -63,6 +63,7 @@ body {
 
 .description {
     margin-bottom: 40px;
+    font-size: 24px;
 }
 
 
@@ -104,7 +105,7 @@ body {
     font-size: 18px;
 
     line-height: 28px;
-    color: #363636;
+    color: #000000;
 
     border: 1px solid #ccc;
     border-right-width: 0;
@@ -119,7 +120,6 @@ body {
     padding-right: 19px;
 
     color: #363636;
-
     border: 2px solid #F87F0E;
     border-right-width: 0;
 
@@ -165,9 +165,10 @@ body {
 
 .subscription-submit-container {
     display: inline-block;
-    height: 54px;
+    height: 72px;
     padding: 4px;
-    padding-left: 0;
+    padding-left: 60px;
+
 
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -175,23 +176,25 @@ body {
 
     float: right;
 
-    background: #fff;
+    /*background: #fff;*/
 
-    border: 1px solid #ccc;
+    border: 0px solid #ccc;
     border-left-width: 0;
     border-top-right-radius: 27px;
     border-bottom-right-radius: 27px;
 }
 
 .subscription-submit {
-    height: 44px;
+    height: 54px;
+    width: 250px;
     padding: 0 20px;
 
-    font-size: 16px;
+    font-size: 24px;
     font-weight: bold;
     color: #fff;
     letter-spacing: 1px;
     text-shadow: inherit;
+
 
     background-color: #F87F0E;
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F9A621), to(#F87F0E));
@@ -216,6 +219,7 @@ body {
 .subscription-tooltip {
     width: 100%;
     padding-top: 5px;
+
 
     position: absolute;
     top: 100%;
