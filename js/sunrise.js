@@ -114,6 +114,7 @@ $(function() {
 //     });
 
 
+
 //     // Remove tooltip on text change
 
 //     $email.on('change focus click keydown', function() {
