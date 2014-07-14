@@ -24,8 +24,8 @@
 html {
     min-height: 100%;
 
-    background:url('../img/lincolnbg1.jpg') 100% 100% no-repeat;
-    background: url('../img/hand-with-iphone.png') 100% 100% no-repeat, #C07B3A url('../img/lincolnbg2.jpg') 100% 100% no-repeat; padding-bottom: 50px;
+    background:url('../img/lincolnbg2-gd.png') 100% 100% no-repeat;
+    background: url('../img/hand-with-iphone.png') 100% 100% no-repeat, #C07B3A url('../img/lincolnbg2-gd.png') 100% 100% no-repeat; padding-bottom: 50px;
 
     -webkit-background-size: cover;
     background-size: cover;
@@ -60,6 +60,15 @@ h1{
     line-height: 64px;
     font-weight: bold;
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.page-title
+{
+    font-size: 32px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    font-style:bolder;
+    text-decoration:overline;
 }
 
 
@@ -276,7 +285,7 @@ h1{
 
 @media (max-width: 979px) {
     html {
-        background: #C07B3A url('../img/lincolnbg1.jpg') 100% 100% no-repeat;
+        background: #C07B3A url('../img/lincolnbg2-gd.png') 100% 100% no-repeat;
 
         -webkit-background-size: cover;
         background-size: cover;
