@@ -73,6 +73,16 @@ h1{
     font-weight:400;
 }
 
+.blog
+{
+    font-size:24px;
+    font-family:"Trocchi", serif;
+    font-weight:400;
+    
+
+}
+
+
 
 
 /*
@@ -82,7 +92,7 @@ h1{
 .description {
     margin-bottom: 40px;
     font-size: 24px;
-  
+
 }
 
 
